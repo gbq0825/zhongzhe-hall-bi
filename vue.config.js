@@ -1,6 +1,6 @@
 module.exports = {
 	publicPath: './',
-	outputDir: 'dist/build/h5',
+	outputDir: 'dist',
 	devServer: {
 		proxy: { //配置跨域      
 			'/nbgt': {
