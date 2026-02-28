@@ -1,0 +1,65 @@
+{
+	"name": "shipping_logistics",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"build:test": "vue-cli-service --mode xydata build",
+		"scp": "scp -r dist/* xydata@172.16.1.238:/home/xydata/app/front/zhongzhe-hall-bi"
+	},
+	"dependencies": {
+		"@amap/amap-jsapi-loader": "^1.0.1",
+		"@antv/data-set": "^0.11.8",
+		"@antv/g2": "^4.1.13",
+		"animate.css": "^4.1.1",
+		"axios": "^0.21.1",
+		"core-js": "^3.6.5",
+		"echarts": "^5.1.0",
+		"echarts-gl": "^2.0.9",
+		"echarts-liquidfill": "^3.1.0",
+		"element-ui": "^2.15.5",
+		"leaflet": "^1.7.1",
+		"leaflet-heatmap": "^1.0.0",
+		"less-loader": "^6.0.0",
+		"moment": "^2.29.1",
+		"video.js": "^8.0.4",
+		"videojs-contrib-hls": "^5.15.0",
+		"viser-vue": "^2.4.8",
+		"vue": "^2.6.11",
+		"vue-count-to": "^1.0.13",
+		"vue-router": "^3.5.2",
+		"vue-seamless-scroll": "^1.1.23",
+		"vue2-leaflet": "^2.7.0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.2.2",
+		"less": "^4.1.3",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/essential",
+			"eslint:recommended"
+		],
+		"parserOptions": {
+			"parser": "babel-eslint"
+		},
+		"rules": {}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
+}
